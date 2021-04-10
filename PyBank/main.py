@@ -67,7 +67,7 @@ print("Note - Absolute value used for average change calculation")
 
 # Write summary table to file
 
-write_path = os.path.join('Resources', 'bank_data_analysis.txt')
+write_path = os.path.join('Analysis', 'bank_data_analysis.txt')
 
 with open(write_path,'w') as File:
 
