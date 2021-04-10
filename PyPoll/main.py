@@ -61,3 +61,21 @@ print(f"O'Tooley: {Tooley_votes0}% ({Tooley_votes})")
 print("---------------------------")    
 print(f"Winner: {winner_list[x]}")
 print("---------------------------")
+
+# Write summary table to file
+
+write_path = os.path.join('Analysis', 'Election_analysis.txt')
+
+with open(write_path,'w') as File:
+    File.write("\n")
+    File.write(f"Election Results\n")
+    File.write("---------------------------\n")
+    File.write(f"Total Votes: {counter-1}\n")
+    File.write("---------------------------\n")
+    File.write(f"Khan: {Khan_votes0}% ({Khan_votes})\n")
+    File.write(f"Correy: {Correy_votes0}% ({Correy_votes})\n")
+    File.write(f"Li: {Li_votes0}% ({Li_votes})\n")
+    File.write(f"O'Tooley: {Tooley_votes0}% ({Tooley_votes})\n")
+    File.write("---------------------------\n")    
+    File.write(f"Winner: {winner_list[x]}\n")
+    File.write("---------------------------")
