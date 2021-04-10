@@ -4,8 +4,8 @@ Python scripts used to analyze large banking and polling datasets
 - key points learned: Syntax, Syntax, Syntax
 - for loop structure
 - strengths and limitations of base Python Libraries
-- ways to fin answers
-- better ar catching syntax error: school of brute force!
+- ways to find answers
+- better at catching syntax error: school of brute force!
 
 PyBank
     -   used absolute value to sum changes in Profit/Losses: the example showed a negative change average which didn't make sense to me
