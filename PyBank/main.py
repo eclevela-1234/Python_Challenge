@@ -50,6 +50,9 @@ with open(csv_path) as File:
  # Calculate total months
 Total_Months = counter - 1   
 
+# Average change calculation
+Average_Change = round((Change_Total/Total_Months), 2)
+
 # Print Table
 print()
 print("Financial Analysis")
@@ -62,7 +65,7 @@ print(f"Greatest Decrease in Profits: {min_PL}")
 print()
 print("Note - Absolute value used for average change calculation")
 
-Average_Change = round((Change_Total/Total_Months), 2)
+# Write summary table to file
 
 write_path = os.path.join('Resources', 'bank_data_analysis.txt')
 
